@@ -1,0 +1,9 @@
+<div class=" developer-details">
+    <h2>Nom : {{developer1.firstName}}</h2>
+    <h2>Prénom : {{developer1.lastName}}</h2>
+    <p>Age: {{ developer1.age }}</p>
+    <P>Genre:{{developer1.gender}}</P>
+    <p>Bio: {{ developer1.bio }}</p>
+    <h3>Skills:</h3>
+</div>
+<app-skill [skills]="developer1.skills"></app-skill>
